@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <ellipse cx="256" cy="458" rx="196" ry="24" fill="#E8F5E9"/>
+  <g>
+    <ellipse cx="216" cy="378" rx="106" ry="32" fill="#E0900F"/>
+    <rect x="110" y="318" width="212" height="60" fill="#F9A825"/>
+    <ellipse cx="216" cy="318" rx="106" ry="32" fill="#FFC94D"/>
+  </g>
+  <g>
+    <ellipse cx="216" cy="286" rx="88" ry="26" fill="#E0900F"/>
+    <rect x="128" y="238" width="176" height="48" fill="#F9A825"/>
+    <ellipse cx="216" cy="238" rx="88" ry="26" fill="#FFC94D"/>
+  </g>
+  <g>
+    <ellipse cx="216" cy="210" rx="70" ry="22" fill="#E0900F"/>
+    <rect x="146" y="170" width="140" height="40" fill="#F9A825"/>
+    <ellipse cx="216" cy="170" rx="70" ry="22" fill="#FFC94D"/>
+  </g>
+  <text x="216" y="202" font-family="Calibri, Arial, sans-serif" font-size="38" font-weight="bold" fill="#5D4037" text-anchor="middle">Rp</text>
+  <g>
+    <line x1="352" y1="360" x2="430" y2="180" stroke="#2E7D32" stroke-width="18" stroke-linecap="round"/>
+    <polygon points="430,138 462,206 398,206" fill="#2E7D32"/>
+  </g>
+  <path d="M322,398 C348,364 396,362 424,378 C404,418 356,426 328,412 Z" fill="#7CB342"/>
+</svg>

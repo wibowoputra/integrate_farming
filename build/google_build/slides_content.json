@@ -1,0 +1,428 @@
+[
+  {
+    "id": 1,
+    "layout": "cover",
+    "kicker": "PROPOSAL PROGRAM KOMUNITAS RT/RW",
+    "headline": "Integration Farmer",
+    "tagline": "Sampah Jadi Berkah, Halaman Jadi Kebun",
+    "subtitle": "Kemitraan Komunitas Urban Farming: Sampah Organik menjadi Kompos & Sayur Segar di Halaman Rumah",
+    "image": "cover_hero",
+    "notes": "Sapa warga dengan hangat. Perkenalkan nama program dan taglinenya: satu kalimat yang mudah diingat - sampah dapur tidak lagi dibuang, tapi menjadi berkah; halaman rumah yang tadinya kosong menjadi kebun. Sebutkan bahwa proposal ini diajukan melalui musyawarah warga."
+  },
+  {
+    "id": 2,
+    "layout": "exec_summary",
+    "headline": "Ringkasan Program dalam Satu Layar",
+    "cards": [
+      {
+        "stat": "40%",
+        "label": "Sampah nasional adalah sisa makanan yang bisa jadi kompos (SIPSN, 2025)"
+      },
+      {
+        "stat": "Rp5,4 jt",
+        "label": "Rata-rata belanja sayur per keluarga setiap tahun"
+      },
+      {
+        "stat": "Rp1,7 jt",
+        "label": "Modal awal program untuk 10-20 KK - lebih murah dari belanja sayur 4 bulan"
+      }
+    ],
+    "bullets": [
+      "Masalah: sampah dapur menumpuk, sayur makin mahal",
+      "Solusi: kompos dari sampah, sayur dari halaman",
+      "Permintaan: persetujuan program + dukungan anggaran awal"
+    ],
+    "notes": "Slide ini adalah slide terpenting. Jika warga hanya mengingat satu hal, inilah yang harus mereka ingat: sampah kita hampir 40% adalah sisa makanan yang bisa diubah jadi kompos; keluarga kita menghabiskan Rp5,4 juta per tahun hanya untuk belanja sayur; dan modal awal program ini cuma Rp1,7 juta untuk 10-20 KK. Yang kami minta hari ini: persetujuan warga dan dukungan anggaran awal."
+  },
+  {
+    "id": 3,
+    "layout": "content_stats",
+    "headline": "Sampah Dapur Kita: Dibuang, Padahal Berharga",
+    "image": "icon_sampah",
+    "bullets": [
+      "Sisa makanan = 40% dari sampah nasional",
+      "32,8 juta ton sampah Indonesia per tahun (2024)",
+      "Hanya 39% sampah dikelola secara layak",
+      "1 komposter rumah turunkan sampah 21-42%",
+      "Sampah organik di TPA memicu gas metana"
+    ],
+    "stat_strip": [
+      {
+        "stat": "32,8 jt ton",
+        "label": "timbulan sampah nasional 2024"
+      },
+      {
+        "stat": "39%",
+        "label": "sampah dikelola layak"
+      }
+    ],
+    "notes": "Setiap pagi kita buang sisa sayur, kulit buah, dan ampas nasi ke kantong sampah. Data SIPSN 2024: Indonesia menghasilkan 32,8 juta ton sampah per tahun dan hampir 40% di antaranya sisa makanan - bahan yang seharusnya bisa dikomposkan. Kenyataannya hanya 39% sampah dikelola secara layak. Satu komposter rumah saja bisa mengurangi timbulan sampah keluarga 21-42%. Sampah organik yang menumpuk di TPA juga melepas metana, gas pemanas bumi. Artinya: memilah sampah dapur hari ini adalah tindakan paling murah dan paling berguna bagi lingkungan kita."
+  },
+  {
+    "id": 4,
+    "layout": "content_stats",
+    "headline": "Sayur & Bumbu Mahal, Belanja Menyiksa",
+    "image": "icon_dompet",
+    "bullets": [
+      "Cabai rawit pernah tembus Rp130.000/kg (2026)",
+      "Bawang merah menembus Rp42.000-65.000/kg",
+      "Bayam melonjak 3-4x lipat saat cuaca buruk",
+      "Belanja sayur: Rp450.000/bulan = Rp5,4 juta/tahun",
+      "Harga fluktuatif, sulit diprediksi warga"
+    ],
+    "stat_strip": [
+      {
+        "stat": "Rp130.000",
+        "label": "puncak harga cabai rawit per kg (2026)"
+      },
+      {
+        "stat": "Rp5,4 jt",
+        "label": "belanja sayur per keluarga/tahun"
+      }
+    ],
+    "notes": "Lalu masalah kedua: harga. Cabai rawit pernah menyentuh Rp130.000 per kg, bawang merah menembus Rp42.000-65.000 per kg, dan sayur seperti bayam bisa naik 3-4 kali lipat saat cuaca buruk. Rata-rata keluarga menghabiskan Rp15.000 per hari untuk sayur, atau setara Rp5,4 juta per tahun. Harga ini fluktuatif dan sulit diprediksi. Padahal, sebagian besar sayur dan bumbu itu bisa kita tanam sendiri di halaman rumah dengan perawatan sederhana."
+  },
+  {
+    "id": 5,
+    "layout": "content_image",
+    "headline": "Satu Solusi, Dua Masalah Terpecahkan",
+    "subhead": "Integration Farmer: kemitraan warga untuk urban farming berbasis sampah organik",
+    "image": "panen",
+    "bullets": [
+      "Sampah organik diolah menjadi kompos di rumah",
+      "Kompos menyuburkan sayur & bumbu dapur",
+      "Ditanam di halaman rumah atau lahan komunal",
+      "Model inti-plasma sederhana ala komunitas",
+      "Hasil panen untuk konsumsi & dijual warga"
+    ],
+    "notes": "Inilah gagasan program Integration Farmer. Kita satukan dua masalah dalam satu solusi: sampah dapur diolah menjadi kompos, kompos dipakai untuk menyuburkan sayur dan bumbu dapur, dan tanamannya kita letakkan di halaman rumah masing-masing atau lahan komunal RW. Kemitraannya sederhana - meniru pola inti-plasma: ada kelompok penggerak yang menyediakan alat dan pelatihan, dan ada KK peserta yang merawat tanaman di rumahnya. Hasil panen dinikmati keluarga dan sebagian dijual untuk kas bersama."
+  },
+  {
+    "id": 6,
+    "layout": "pillars",
+    "headline": "Tiga Tujuan, Tiga Manfaat Langsung",
+    "cards": [
+      {
+        "image": "pillar_sosial",
+        "title": "Sosial",
+        "bullets": [
+          "Kebersamaan & gotong royong",
+          "Musyawarah rutin tiap bulan",
+          "Kohosi warga makin kuat"
+        ]
+      },
+      {
+        "image": "pillar_ekonomi",
+        "title": "Ekonomi",
+        "bullets": [
+          "Hemat hingga Rp2,7 jt/tahun/KK",
+          "Panen sayur sendiri",
+          "Peluang jual ke warga"
+        ]
+      },
+      {
+        "image": "pillar_lingkungan",
+        "title": "Lingkungan",
+        "bullets": [
+          "Sampah turun 21-42%",
+          "Bebas bau & asap bakar",
+          "Halaman hijau & sejuk"
+        ]
+      }
+    ],
+    "notes": "Tujuan program ini bertingkat tiga. Sosial: kebersamaan warga - gotong royong, musyawarah rutin, dan hubungan tetangga yang makin akrab. Ekonomi: hemat pengeluaran - jika separuh kebutuhan sayur kita panen sendiri, keluarga bisa menghemat hingga Rp2,7 juta per tahun, ditambah peluang menjual kelebihan panen. Lingkungan: sampah rumah tangga turun 21-42%, halaman menjadi hijau dan sejuk, dan tidak ada lagi sampah yang dibakar atau bau di sekitar rumah."
+  },
+  {
+    "id": 7,
+    "layout": "photo_captions",
+    "headline": "Mekanisme Kerja: Siklus Integration Farmer",
+    "image": "cycle_diagram",
+    "captions": [
+      "1. Kumpulkan sampah dapur setiap hari",
+      "2. Komposkan 30-45 hari sampai matang",
+      "3. Tanam sayur & bumbu dengan kompos",
+      "4. Panen, nikmati, jual - sisanya ulangi"
+    ],
+    "notes": "Cara kerjanya sangat sederhana dalam empat langkah. Pertama, kumpulkan sampah dapur - sisa sayur, kulit buah, ampas nasi - setiap hari di wadah komposter. Kedua, biarkan terkompos selama 30-45 hari sampai matang; hasilnya pupuk kompos gratis. Ketiga, gunakan kompos untuk menanam sayur dan bumbu di halaman atau bedeng. Keempat, panen - sebagian untuk konsumsi keluarga, kelebihannya dijual ke warga. Proses berulang terus: makin banyak sampah, makin banyak kompos, makin banyak panen."
+  },
+  {
+    "id": 8,
+    "layout": "two_column",
+    "headline": "Skema Kemitraan Inti-Plasma Sederhana",
+    "image": "partnership",
+    "left_title": "INTI - Penggerak (Pengurus/Pemuda RT)",
+    "left_bullets": [
+      "Sediakan komposter & alat bersama",
+      "Kelola kas program & pengadaan bibit",
+      "Jadwalkan pelatihan dan pendampingan",
+      "Pemasaran hasil panen bersama"
+    ],
+    "right_title": "PLASMA - KK Peserta (10-20 KK)",
+    "right_bullets": [
+      "Sediakan halaman & merawat tanaman",
+      "Menyetor sampah organik rutin",
+      "Mengikuti pelatihan & piket kebun",
+      "Menyerahkan sebagian hasil ke kas"
+    ],
+    "split_note": "Pembagian hasil: 70% untuk KK peserta | 20% kas kelompok (bibit berikutnya) | 10% kas RT/RW",
+    "notes": "Kemitraan ini meniru pola inti-plasma yang sudah lama dipakai di koperasi dan perkebunan, hanya dalam versi sederhana. Inti adalah penggerak - pengurus RT/RW dan pemuda - yang menyediakan komposter, mengelola kas, mengatur pelatihan, dan membantu pemasaran. Plasma adalah 10-20 KK peserta yang menyediakan halaman, merawat tanaman, dan menyetor sampah dapur secara rutin. Pembagian hasil: 70% dibawa pulang oleh KK peserta, 20% masuk kas kelompok untuk membeli bibit periode berikutnya, dan 10% untuk kas RT/RW. Semuanya transparan dan dicatat."
+  },
+  {
+    "id": 9,
+    "layout": "examples_with_banner",
+    "headline": "Sudah Terbukti di Komunitas Lain",
+    "cards": [
+      {
+        "stat": "120 kg",
+        "title": "RW 09 Kalideres, Jakbar",
+        "label": "Panen perdana dari lahan 200 m2 - cesim, pakcoy, kangkung, panen rutin tiap bulan"
+      },
+      {
+        "stat": "511 kg",
+        "title": "Duren Sawit, Jak Tim",
+        "label": "Panen kedua dari urban farming 4.250 m2 di 7 kelurahan"
+      },
+      {
+        "stat": "26%",
+        "title": "Kutisari, Surabaya",
+        "label": "Kebun rumah memenuhi 26% kebutuhan sayur warga per bulan"
+      }
+    ],
+    "notes": "Program seperti ini bukan gagasan yang belum teruji. Di RW 09 Kalideres, lahan kosong 200 meter persegi menghasilkan 120 kg sayur sekali panen dan kini panen rutin setiap bulan. Di Duren Sawit, urban farming 7 kelurahan menghasilkan 511 kg sayur pada panen kedua. Di Kutisari Surabaya, kebun rumah mampu memenuhi 26% kebutuhan sayur keluarga setiap bulan. Jika mereka bisa, kita juga bisa - dengan lahan halaman kita sendiri.",
+    "image": "panen2"
+  },
+  {
+    "id": 10,
+    "layout": "timeline",
+    "headline": "Rencana Kegiatan: 4 Bulan Menuju Panen Perdana",
+    "phases": [
+      {
+        "period": "Bulan 1",
+        "title": "Persiapan",
+        "items": [
+          "Musyawarah & persetujuan warga",
+          "Bentuk kelompok inti-plasma",
+          "Pendataan KK & lokasi tanam",
+          "Pengadaan komposter & alat"
+        ]
+      },
+      {
+        "period": "Bulan 2",
+        "title": "Pelatihan",
+        "items": [
+          "Sosialisasi program ke warga",
+          "Pelatihan kompos (ember/takakura)",
+          "Pelatihan bercocok tanam",
+          "Pembagian bibit & media"
+        ]
+      },
+      {
+        "period": "Bulan 3",
+        "title": "Penanaman",
+        "items": [
+          "Tanam di halaman & bedeng",
+          "Setor sampah organik rutin",
+          "Piket rawat bersama",
+          "Pendampingan fasilitator"
+        ]
+      },
+      {
+        "period": "Bulan 4",
+        "title": "Panen Perdana",
+        "items": [
+          "Panen bersama warga",
+          "Pembagian hasil panen",
+          "Penjualan sisa panen",
+          "Evaluasi & rencana lanjut"
+        ]
+      }
+    ],
+    "notes": "Pelaksanaannya dirancang dalam empat bulan. Bulan pertama: musyawarah, pembentukan kelompok, pendataan KK, dan pengadaan alat. Bulan kedua: pelatihan mengompos dan bercocok tanam, lalu pembagian bibit. Bulan ketiga: penanaman dan perawatan bersama dengan pendampingan fasilitator. Bulan keempat: panen perdana - kita rayakan bersama, hasilnya dibagikan, sebagian dijual untuk kas, dan kita evaluasi bersama untuk melanjutkan ke periode berikutnya."
+  },
+  {
+    "id": 11,
+    "layout": "table",
+    "headline": "Estimasi Anggaran Awal (10-20 KK)",
+    "table": {
+      "headers": [
+        "No",
+        "Komponen",
+        "Rincian",
+        "Estimasi Biaya"
+      ],
+      "rows": [
+        [
+          "1",
+          "Komposter ember tumpuk",
+          "4 unit (2 ember + kran) @ Rp125.000",
+          "Rp500.000"
+        ],
+        [
+          "2",
+          "Benih & bibit sayur/bumbu",
+          "12 sachet (kangkung, pakcoy, cabai, tomat) @ Rp14.000",
+          "Rp170.000"
+        ],
+        [
+          "3",
+          "Media tanam & pupuk",
+          "Sekam, pupuk kandang, aktivator EM4",
+          "Rp200.000"
+        ],
+        [
+          "4",
+          "Alat kebun bersama",
+          "Cangkul, sarung tangan, sprayer, selang",
+          "Rp250.000"
+        ],
+        [
+          "5",
+          "Pelatihan & fasilitator",
+          "Insentif fasilitator + konsumsi 2x pelatihan",
+          "Rp250.000"
+        ],
+        [
+          "6",
+          "Spanduk & administrasi",
+          "Spanduk program, buku catatan, kontak",
+          "Rp150.000"
+        ],
+        [
+          "7",
+          "Cadangan tak terduga",
+          "Alokasi ~10%",
+          "Rp150.000"
+        ]
+      ],
+      "total_label": "TOTAL ESTIMASI",
+      "total_value": "Rp1.670.000",
+      "total_note": "Setara Rp85.000 - Rp167.000 per KK (untuk 20 - 10 KK) | Kebutuhan lahan: memanfaatkan halaman & lahan komunal yang sudah ada"
+    },
+    "notes": "Berikut estimasi anggaran sederhana, disusun dari harga pasar 2024-2026. Empat komposter, bibit 12 sachet, media dan pupuk, alat kebun bersama, biaya pelatihan, spanduk, serta cadangan tak terduga - totalnya sekitar Rp1,67 juta untuk 10 sampai 20 KK. Artinya hanya sekitar Rp85.000 sampai Rp167.000 per KK, atau kurang dari belanja sayur satu bulan. Lahan tidak perlu dibeli karena kita memanfaatkan halaman rumah dan lahan komunal yang sudah ada."
+  },
+  {
+    "id": 12,
+    "layout": "sponsors",
+    "headline": "Sumber Dana & Paket Sponsor Mikro",
+    "cards": [
+      {
+        "title": "Kawan Kebun",
+        "price": "Rp250.000",
+        "bullets": [
+          "Penyebutan di spanduk program",
+          "Laporan foto hasil panen",
+          "Ucapan terima kasih di grup WA RT"
+        ]
+      },
+      {
+        "title": "Mitra Hijau",
+        "price": "Rp500.000",
+        "bullets": [
+          "Semua manfaat Kawan Kebun",
+          "Papan nama bedeng kebun",
+          "Promosi di grup & papan info RT"
+        ]
+      },
+      {
+        "title": "Patron Panen",
+        "price": "Rp1.000.000",
+        "bullets": [
+          "Semua manfaat Mitra Hijau",
+          "Nama disematkan di kebun",
+          "Undangan khusus panen perdana"
+        ]
+      }
+    ],
+    "note_line": "Dana bersumber dari: kas RT/RW + iuran peserta ringan + sponsor mikro pengusaha lokal",
+    "notes": "Pendanaannya tiga jalur: kas RT/RW, iuran ringan dari KK peserta, dan sponsor mikro dari pengusaha lokal - warung, toko bangunan, atau rekan warga yang ingin berbagi. Kami siapkan tiga paket ringan: Kawan Kebun Rp250.000 dengan penyebutan di spanduk; Mitra Hijau Rp500.000 dengan papan nama bedeng; dan Patron Panen Rp1 juta dengan nama disematkan di kebun serta undangan khusus panen perdana. Setiap sponsor menerima laporan foto hasil panen."
+  },
+  {
+    "id": 13,
+    "layout": "benefits",
+    "headline": "Manfaat Langsung bagi Warga",
+    "columns": [
+      {
+        "title": "Isi Dompet",
+        "items": [
+          "Hemat hingga Rp2,7 juta/tahun",
+          "Sayur & bumbu gratis tiap panen",
+          "Kompos gratis, tak beli pupuk",
+          "Peluang jualan sayur warga"
+        ]
+      },
+      {
+        "title": "Kualitas Hidup",
+        "items": [
+          "Sayur segar tanpa pestisida",
+          "Halaman rapi & sejuk",
+          "Waktu berkualitas bersama keluarga",
+          "Belajar berkebun untuk anak"
+        ]
+      }
+    ],
+    "notes": "Manfaatnya langsung terasa. Isi dompet: hemat hingga Rp2,7 juta per tahun, sayur dan bumbu gratis setiap panen, kompos gratis sehingga tidak perlu beli pupuk, dan ada peluang menjual sayur ke warga lain. Kualitas hidup: sayur segar tanpa pestisida, halaman menjadi rapi dan sejuk, waktu berkualitas bersama keluarga di kebun, dan anak-anak belajar berkebun serta tidak takut kotor."
+  },
+  {
+    "id": 14,
+    "layout": "risks",
+    "headline": "Risiko & Cara Mengatasinya",
+    "cards": [
+      {
+        "title": "Partisipasi rendah",
+        "fix": "Iuran ringan, jadwal piket fleksibel, kabar harian lewat grup WA"
+      },
+      {
+        "title": "Cuaca & hama",
+        "fix": "Tanam bertahap, naungan/paranet, pendampingan fasilitator"
+      },
+      {
+        "title": "Dana terbatas",
+        "fix": "Sponsor mikro, kas RT/RW, skala bertahap mulai 10 KK"
+      }
+    ],
+    "notes": "Kami juga sudah memetakan risikonya. Kalau partisipasi rendah: iuran dibuat ringan, jadwal piket fleksibel, dan ada kabar harian di grup WA agar semua merasa terlibat. Kalau cuaca dan hama: tanam dibuat bertahap, disiapkan naungan, dan ada pendampingan fasilitator. Kalau dana terbatas: kita mulai bertahap dari 10 KK dulu, ditopang sponsor mikro dan kas RT/RW."
+  },
+  {
+    "id": 15,
+    "layout": "indicators",
+    "headline": "Ukuran Keberhasilan & Keberlanjutan",
+    "cards": [
+      {
+        "stat": "10-20",
+        "label": "KK aktif berkebun & menyetor sampah"
+      },
+      {
+        "stat": "4",
+        "label": "Komposter aktif, sampah turun 21-42%"
+      },
+      {
+        "stat": "25+ kg",
+        "label": "Target panen perdana gabungan"
+      },
+      {
+        "stat": "20%",
+        "label": "Kas kelompok untuk bibit periode berikutnya"
+      }
+    ],
+    "bullets": [
+      "Program mandiri: kas dari hasil penjualan panen",
+      "Evaluasi bulanan bersama pengurus & warga",
+      "Laporan terbuka untuk warga dan sponsor"
+    ],
+    "notes": "Keberhasilannya kami ukur dengan angka sederhana: 10 sampai 20 KK aktif, 4 komposter berjalan dengan penurunan sampah 21-42%, panen perdana minimal 25 kilogram gabungan, dan 20% kas kelompok yang kembali dipakai untuk membeli bibit periode berikutnya. Keberlanjutannya dijamin karena kas kelompok hidup dari hasil penjualan panen - setelah tahap awal, program ini tidak lagi bergantung pada dana awal. Evaluasi dilakukan bulanan dan laporan terbuka untuk warga serta sponsor."
+  },
+  {
+    "id": 16,
+    "layout": "closing",
+    "headline": "Mari Kita Mulai Bersama",
+    "image": "cta_hero",
+    "cta_bullets": [
+      "Setujui program & anggaran awal Rp1,67 juta",
+      "Daftar sebagai KK peserta (10-20 KK pertama)",
+      "Dukung sebagai sponsor: Kawan Kebun - Patron Panen"
+    ],
+    "closing_line": "Musyawarah pengesahan: [Hari/Tanggal], 19.30 di Balai RT [nomor]",
+    "contact": "[Nama Panitia] - WA [nomor] | Sekretariat: Balai RT [nomor]",
+    "notes": "Tutup dengan permintaan yang jelas dan spesifik. Pertama, setujui program dan anggaran awal Rp1,67 juta dalam musyawarah malam ini. Kedua, daftarkan keluarga Anda sebagai KK peserta - kami membuka 10-20 KK pertama. Ketiga, bantu sebagai sponsor mikro sesuai kemampuan. Musyawarah pengesahan dijadwalkan [Hari/Tanggal] pukul 19.30 di Balai RT. Silakan hubungi panitia untuk pertanyaan. Terima kasih - sampai jumpa di kebun kita."
+  }
+]

@@ -1,0 +1,47 @@
+{
+ "cover_hero": {
+  "id": "27176054",
+  "desc": "A gardener wearing gloves tending to lettuce plants in an outdoor garden bed.",
+  "alt": "Gardener tending lettuce in garden bed"
+ },
+ "icon_sampah": {
+  "id": "8466654",
+  "desc": "A woman amidst spilled groceries, highlighting food waste and consumerism with vegetables, fruits, and bread.",
+  "alt": "Food waste spilled groceries"
+ },
+ "icon_dompet": {
+  "id": "39206252",
+  "desc": "A colorful display of fresh vegetables including eggplants and gourds at a New Delhi market.",
+  "alt": "Vegetable market prices"
+ },
+ "panen": {
+  "id": "16560048",
+  "desc": "Farmers in Tomohon, Indonesia, harvest cabbages in a vibrant green field under cloudy skies.",
+  "alt": "Indonesian farmers harvesting cabbages"
+ },
+ "pillar_sosial": {
+  "id": "37049848",
+  "desc": "Joyful family bonding moment in a lush Singapore park setting, capturing laughter and love.",
+  "alt": "Asian family joyful outdoors"
+ },
+ "pillar_ekonomi": {
+  "id": "3943715",
+  "desc": "Hand inserting coin into black piggy bank among scattered coins, symbolizing savings and financial planning.",
+  "alt": "Saving money piggy bank"
+ },
+ "pillar_lingkungan": {
+  "id": "1072824",
+  "desc": "A young sapling held in hands symbolizes growth and sustainability.",
+  "alt": "Hands holding seedling"
+ },
+ "partnership": {
+  "id": "7734571",
+  "desc": "Close-up of two individuals shaking hands symbolizing business agreement and partnership.",
+  "alt": "Two people handshake"
+ },
+ "cta_hero": {
+  "id": "5425794",
+  "desc": "A top-down view of a basket filled with fresh vegetables and produce, placed on a wooden table.",
+  "alt": "Basket of fresh vegetables"
+ }
+}

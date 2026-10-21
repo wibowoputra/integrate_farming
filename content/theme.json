@@ -1,0 +1,50 @@
+{
+  "slide": {"width_in": 13.333, "height_in": 7.5},
+  "colors": {
+    "primary": "2E7D32",
+    "primary_dark": "1B5E20",
+    "primary_light": "E8F5E9",
+    "secondary": "7CB342",
+    "accent": "F9A825",
+    "accent_light": "FFF8E1",
+    "bg": "FFFFFF",
+    "soft_bg": "F4F8F2",
+    "card_border": "DCE7DB",
+    "text": "1F2A24",
+    "text_muted": "5C6B60",
+    "white": "FFFFFF",
+    "table_alt": "F1F7EF"
+  },
+  "fonts": {"heading": "Calibri", "body": "Calibri"},
+  "sizes": {
+    "cover_title": 54,
+    "cover_tagline": 26,
+    "cover_subtitle": 16,
+    "kicker": 13,
+    "headline": 30,
+    "subhead": 17,
+    "body": 16,
+    "bullet": 16,
+    "card_title": 19,
+    "card_bullet": 13.5,
+    "stat": 30,
+    "stat_label": 12.5,
+    "caption": 13,
+    "note": 14,
+    "footer": 9,
+    "table_header": 13.5,
+    "table_body": 13,
+    "timeline_item": 12.5
+  },
+  "layout": {
+    "margin_in": 0.7,
+    "header_kicker_y_in": 0.34,
+    "header_headline_y_in": 0.62,
+    "header_rule_y_in": 1.32,
+    "content_y_in": 1.62,
+    "content_bottom_in": 6.85,
+    "footer_y_in": 7.08,
+    "card_radius": 0.08,
+    "gap_in": 0.35
+  }
+}

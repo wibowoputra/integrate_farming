@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <circle cx="1050" cy="130" r="64" fill="#F9A825"/>
+  <g stroke="#F9A825" stroke-width="12" stroke-linecap="round">
+    <line x1="1050" y1="34" x2="1050" y2="56"/>
+    <line x1="954" y1="130" x2="976" y2="130"/>
+    <line x1="982" y1="62" x2="998" y2="78"/>
+    <line x1="1118" y1="62" x2="1102" y2="78"/>
+  </g>
+  <ellipse cx="880" cy="180" rx="90" ry="34" fill="#ECEFF1"/>
+  <ellipse cx="960" cy="166" rx="66" ry="30" fill="#ECEFF1"/>
+  <path d="M0,640 Q300,560 600,630 T1200,610 L1200,900 L0,900 Z" fill="#C8E6C9"/>
+  <path d="M0,740 Q340,680 680,736 T1200,720 L1200,900 L0,900 Z" fill="#A5D6A7"/>
+  <g stroke="#FFFFFF" stroke-width="14" stroke-linecap="round">
+    <line x1="120" y1="640" x2="120" y2="520"/>
+    <line x1="220" y1="648" x2="220" y2="520"/>
+    <line x1="320" y1="654" x2="320" y2="524"/>
+    <line x1="70" y1="540" x2="370" y2="548"/>
+    <line x1="74" y1="596" x2="366" y2="604"/>
+  </g>
+  <rect x="440" y="600" width="300" height="150" rx="14" fill="#8D6E63"/>
+  <rect x="440" y="600" width="300" height="38" rx="12" fill="#6D4C41"/>
+  <g stroke="#2E7D32" stroke-width="10" stroke-linecap="round">
+    <line x1="500" y1="600" x2="500" y2="512"/>
+    <line x1="560" y1="600" x2="560" y2="492"/>
+    <line x1="620" y1="600" x2="620" y2="506"/>
+    <line x1="680" y1="600" x2="680" y2="522"/>
+  </g>
+  <ellipse cx="476" cy="512" rx="32" ry="19" fill="#7CB342"/>
+  <ellipse cx="524" cy="492" rx="32" ry="19" fill="#7CB342"/>
+  <ellipse cx="596" cy="490" rx="32" ry="19" fill="#7CB342"/>
+  <ellipse cx="644" cy="508" rx="32" ry="19" fill="#7CB342"/>
+  <circle cx="712" cy="522" rx="22" ry="22" fill="#E53935"/>
+  <path d="M712,500 q10,-18 28,-16 q-4,18 -24,22 Z" fill="#2E7D32"/>
+  <path d="M840,706 q120,-96 300,-40 l0,120 q-170,-44 -300,26 Z" fill="#F9A825"/>
+  <path d="M846,712 q118,-88 288,-38" fill="none" stroke="#E0900F" stroke-width="10"/>
+  <g>
+    <path d="M896,694 q-6,-70 54,-96 q16,66 -44,100 Z" fill="#7CB342"/>
+    <path d="M956,690 q10,-64 74,-76 q2,64 -64,88 Z" fill="#2E7D32"/>
+    <polygon points="1044,664 1076,714 1012,714" fill="#F4722B"/>
+    <polygon points="1104,652 1140,712 1068,712" fill="#F4722B"/>
+  </g>
+</svg>
