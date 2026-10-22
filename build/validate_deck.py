@@ -25,6 +25,9 @@ if len(slides) != expected:
 def expected_pictures(d):
     if d["layout"] == "pillars":
         return len(d["cards"])
+    if d["layout"] == "mechanism2":
+        steps = sum(len(st["photos"]) for st in d["steps"])
+        return steps + 1
     return 1 if "image" in d else 0
 
 

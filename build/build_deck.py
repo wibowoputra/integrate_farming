@@ -652,7 +652,7 @@ def layout_indicators(prs, d, page):
     return s
 
 
-def layout_closing(prs, d):
+def layout_closing(prs, d, page):
     s = blank_slide(prs)
     txt(s, 0.7, 1.55, 6.9, 0.8, d["headline"], size=34,
         color=COL["primary_dark"], bold=True, font=FONT_H)
@@ -668,7 +668,92 @@ def layout_closing(prs, d):
     txt(s, 0.7, by + 0.95, 6.9, 0.5, "Kontak: " + d["contact"], size=12.5,
         color=COL["text_muted"], line_spacing=1.15)
     pic_cover(s, d["image"], 7.95, 1.6, 4.7, 5.0, radius=0.09)
-    footer(s, 16)
+    footer(s, page)
+    notes(s, d["notes"])
+    return s
+
+
+def layout_mechanism2(prs, d, page):
+    s = blank_slide(prs)
+    header(s, d["headline"], kicker=d.get("kicker"), subhead=d.get("subhead"))
+
+    m = LAY["margin_in"]
+    arrow_gap = 0.40
+    steps = d["steps"]
+    n = len(steps)
+    cw = (SW - 2 * m - (n - 1) * arrow_gap) / n
+    cy, ch = 1.92, 2.48
+
+    for i, st in enumerate(steps):
+        x = m + i * (cw + arrow_gap)
+        card(s, x, cy, cw, ch, fill=COL["soft_bg"])
+        photos = st["photos"]
+        ph = 1.14
+        if len(photos) == 1:
+            pic_cover(s, photos[0], x + 0.09, cy + 0.08, cw - 0.18, ph, radius=0.05)
+        else:
+            half = (cw - 0.18 - 0.06) / 2
+            for j, key in enumerate(photos):
+                pic_cover(s, key, x + 0.09 + j * (half + 0.06), cy + 0.08, half, ph,
+                          radius=0.05)
+        badge = shape(s, MSO_SHAPE.ROUNDED_RECTANGLE, x + 0.15, cy + 0.15,
+                      0.40, 0.34, fill=COL["accent"], radius=0.5)
+        btf = badge.text_frame
+        btf.vertical_anchor = MSO_ANCHOR.MIDDLE
+        bp = btf.paragraphs[0]
+        bp.alignment = PP_ALIGN.CENTER
+        br = bp.add_run()
+        br.text = str(i + 1)
+        style_run(br, 13, COL["white"], bold=True)
+        txt(s, x + 0.10, cy + 1.28, cw - 0.20, 0.30, st["title"], size=13,
+            color=COL["primary_dark"], bold=True, align=PP_ALIGN.CENTER,
+            font=FONT_H)
+        txt(s, x + 0.13, cy + 1.60, cw - 0.26, 0.82, st["caption"], size=10,
+            color=COL["text_muted"], align=PP_ALIGN.CENTER, line_spacing=1.12)
+        if i < n - 1:
+            tri = shape(s, MSO_SHAPE.ISOSCELES_TRIANGLE, x + cw + 0.09,
+                        cy + 0.50, 0.22, 0.24, fill=COL["secondary"])
+            tri.rotation = 90
+
+    loop_y = 4.50
+    shape(s, MSO_SHAPE.ROUNDED_RECTANGLE, m + 0.26, loop_y, SW - 2 * m - 0.26,
+          0.34, fill=COL["primary_light"], radius=0.5)
+    txt(s, m + 0.40, loop_y + 0.06, SW - 2 * m - 0.68, 0.24, d["loop_text"],
+        size=11, color=COL["primary_dark"], bold=True, align=PP_ALIGN.CENTER)
+    lt = shape(s, MSO_SHAPE.ISOSCELES_TRIANGLE, m + 0.03, loop_y + 0.08,
+               0.20, 0.19, fill=COL["primary"])
+    lt.rotation = 270
+
+    by, bh = 5.00, 1.46
+    fx, fw = m, 6.00
+    shape(s, MSO_SHAPE.ROUNDED_RECTANGLE, fx, by, fw, bh,
+          fill=COL["accent_light"], radius=0.06)
+    pic_cover(s, d["frass"]["image"], fx + 0.16, by + 0.14, 1.98, bh - 0.28,
+              radius=0.05)
+    tx = fx + 2.26
+    tw = fw - 2.26 - 0.16
+    txt(s, tx, by + 0.18, tw, 0.28, d["frass"]["title"], size=12.5,
+        color=COL["primary_dark"], bold=True, font=FONT_H)
+    txt(s, tx, by + 0.52, tw, 0.80, d["frass"]["body"], size=11,
+        color=COL["text"], line_spacing=1.16)
+
+    sx = fx + fw + 0.22
+    sw = SW - m - sx
+    card(s, sx, by, sw, bh, fill=COL["bg"])
+    txt(s, sx + 0.24, by + 0.16, sw - 0.48, 0.26, d["facts"]["title"],
+        size=12.5, color=COL["primary_dark"], bold=True, font=FONT_H)
+    ry = by + 0.50
+    for f in d["facts"]["rows"]:
+        dot = shape(s, MSO_SHAPE.ROUNDED_RECTANGLE, sx + 0.26, ry + 0.07,
+                    0.13, 0.13, fill=COL["secondary"], radius=0.5)
+        dot.line.fill.background()
+        txt(s, sx + 0.52, ry, sw - 0.78, 0.28, f, size=11,
+            color=COL["text"], line_spacing=1.05)
+        ry += 0.30
+
+    txt(s, m, 6.58, SW - 2 * m, 0.26, d["source_line"], size=8.5,
+        color=COL["text_muted"], align=PP_ALIGN.CENTER)
+    footer(s, page)
     notes(s, d["notes"])
     return s
 
@@ -713,7 +798,9 @@ def build(out_path=None):
         elif layout == "indicators":
             layout_indicators(prs, d, page)
         elif layout == "closing":
-            layout_closing(prs, d)
+            layout_closing(prs, d, page)
+        elif layout == "mechanism2":
+            layout_mechanism2(prs, d, page)
         else:
             raise ValueError(f"unknown layout: {layout}")
     out = pathlib.Path(out_path or OUT_PATH)
